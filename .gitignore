@@ -4,6 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
+# REMOVE DIRECTORY FROM STAGING AREA:
+# git rm --cached -r directory-name
+
+
 # Ignore bundler config
 .rbenv-version
 /.bundle
