@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SearsGarageWeb.Master" AutoEventWireup="true" CodeBehind="Overview.Master.cs" Inherits="SearsGarageWeb.Overview" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="Server">
+	<div id="FullPageContent" class="fullpagecontent">
+		<div class="leftnav">
+			<asp:ContentPlaceHolder ID="leftNav" runat="server" />
+		</div>
+		<div id="ShortPageContent" class="shortpagecontent">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+		</div>
+	</div>
+	<!-- end of productPagePlaceHolder -->
+</asp:Content>
